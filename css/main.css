@@ -33,7 +33,7 @@ img {
 header {
   display: flex;
   justify-content: space-between;
-  padding: 2em;
+  padding: 2em 10vw;
 }
 header .logo {
   color: #d6b0a3;
@@ -171,6 +171,10 @@ section {
 }
 
 @media only screen and (min-width: 800px) {
+  header {
+    padding: 2em 10vw;
+  }
+
   .featured, .portfolio {
     text-align: left;
   }
@@ -205,8 +209,17 @@ section {
   }
 }
 @media only screen and (min-width: 1050px) {
+  header {
+    padding: 2em 10vw;
+  }
+
+  .social-footer img {
+    width: 30px;
+  }
+
   .hero {
     height: 90vh;
+    padding-top: 20em;
   }
 
   .nav-container {
@@ -225,30 +238,51 @@ section {
   section {
     padding: 4em;
   }
+
+  .hero .content h1 {
+    font-size: 6em;
+  }
+  .hero .content p {
+    font-size: 2em;
+  }
 }
 @media only screen and (min-width: 1250px) {
   header {
-    padding: 2em 10em 2em 10em;
+    padding: 2em 10vw;
+  }
+  header h1 {
+    text-align: center;
+    font-size: 10em;
   }
 
   section {
-    padding: 10em 10em 4em 10em;
+    padding: 10%;
   }
 
-  .hero .content {
-    padding: 6em 8em 6em 10em;
+  .hero .content h1 {
+    font-size: 8em;
+  }
+  .hero .content p {
+    font-size: 3em;
   }
 }
 @media only screen and (min-width: 1550px) {
   header {
-    padding: 2em 15em 2em 15em;
+    padding: 2em 10vw;
+  }
+  header h1 {
+    text-align: center;
+    font-size: 10em;
   }
 
   section {
-    padding: 20em 20em 4em 20em;
+    padding: 10%;
   }
 
-  .hero .content {
-    padding: 6em 8em 6em 20em;
+  .hero .content h1 {
+    font-size: 10em;
+  }
+  .hero .content p {
+    font-size: 4em;
   }
 }/*# sourceMappingURL=main.css.map */
