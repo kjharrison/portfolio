@@ -33,7 +33,7 @@ img {
 header {
   display: flex;
   justify-content: space-between;
-  padding: 2em 10vw;
+  padding: 1.5em 10vw;
 }
 header .logo {
   color: #d6b0a3;
@@ -78,6 +78,7 @@ footer {
 
 .section-title {
   text-align: center;
+  font-size: 2rem;
 }
 
 section {
@@ -126,11 +127,12 @@ section {
 }
 
 .skills {
-  background: white;
+  background: #dddcdc;
+  padding-top: 3em;
 }
 
 .skills-container ul li {
-  background: #b3acac;
+  background: white;
   padding: 2em;
   border-radius: 1em;
   margin-bottom: 1em;
@@ -153,16 +155,13 @@ section {
   width: 150px;
 }
 
-.skill-title {
-  font-weight: bold;
-}
-
-.featured-des {
-  margin-bottom: 2em;
+.about {
+  padding-top: 3em;
 }
 
 .portfolio {
-  background: #f7f7f7;
+  background: #dddcdc;
+  padding-top: 3em;
 }
 
 .portfolio-container a img {
@@ -170,9 +169,82 @@ section {
   margin-bottom: 2em;
 }
 
+.contact {
+  padding-top: 2em;
+}
+
+.container {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  width: 100vw;
+  max-width: 100%;
+}
+.container .header {
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #f0f0f0;
+  padding: 20px 40px;
+}
+.container .header h1 {
+  font-size: 2rem;
+  color: #1D4857;
+  font-weight: 700;
+}
+
+.form-container {
+  padding: 30px 0px;
+}
+
+.form-control {
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.form-control label {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.form-control input {
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  display: block;
+  font-size: 14px;
+  font-family: inherit;
+  padding: 10px;
+  width: 60vw;
+  margin: 0 auto;
+}
+
+.form-control textarea {
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  display: block;
+  font-size: 14px;
+  font-family: inherit;
+  padding: 10px;
+  width: 60vw;
+  height: 5rem;
+}
+
+.form-container button {
+  background-color: #1D4857;
+  border: 2px solid #1D4857;
+  border-radius: 4px;
+  color: #FFF;
+  display: block;
+  font-family: inherit;
+  font-size: 16px;
+  padding: 10px;
+  margin: 0 auto;
+  width: 7rem;
+}
+
 @media only screen and (min-width: 800px) {
   header {
-    padding: 2em 10vw;
+    padding: 1.5em 10vw;
   }
 
   .featured, .portfolio {
@@ -200,17 +272,18 @@ section {
     grid-gap: 1em;
   }
 
-  .portfolio {
-    padding-top: 7em;
-  }
-
   .portfolio-container img {
     margin-left: 2em;
+  }
+
+  .container {
+    width: 80vw;
+    margin: 0 auto;
   }
 }
 @media only screen and (min-width: 1050px) {
   header {
-    padding: 2em 10vw;
+    padding: 1.5em 10vw;
   }
 
   .social-footer img {
@@ -245,10 +318,25 @@ section {
   .hero .content p {
     font-size: 2em;
   }
+
+  .container {
+    width: 70vw;
+    margin: 0 auto;
+  }
+
+  .form-control input {
+    padding: 10px;
+    width: 50vw;
+  }
+
+  .form-control textarea {
+    width: 50vw;
+    height: 7rem;
+  }
 }
 @media only screen and (min-width: 1250px) {
   header {
-    padding: 2em 10vw;
+    padding: 1.5em 10vw;
   }
   header h1 {
     text-align: center;
@@ -265,10 +353,20 @@ section {
   .hero .content p {
     font-size: 3em;
   }
+
+  .form-control input {
+    padding: 10px;
+    width: 40vw;
+  }
+
+  .form-control textarea {
+    width: 40vw;
+    height: 8rem;
+  }
 }
 @media only screen and (min-width: 1550px) {
   header {
-    padding: 2em 10vw;
+    padding: 1.5em 10vw;
   }
   header h1 {
     text-align: center;
