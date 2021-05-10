@@ -88,20 +88,6 @@ section{
         color:#1D4857;
     }
 }
-.featured{
-    position: relative;
-}
-.featured::before{
-    content: "";
-    position: absolute;
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    background: #d6b0a3;
-    top: 0;
-    left: 0;
-    z-index: -1;
-}
 .subtitle{
     text-transform: uppercase;
     font-weight: bold;
@@ -152,9 +138,6 @@ section{
         width: 150px;
     }
 
-}
-.about{
-    padding-top: 3em;
 }
 
 .portfolio{
