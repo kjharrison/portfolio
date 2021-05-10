@@ -22,11 +22,19 @@ img{width:100%;}
     a{
         color: white;
     }
+    .logo{
+       width: 4em;
+       height: 4em;
+       margin: auto 0;
+    }
+    ul{
+        padding: 1.5em 0;
+    }
 }
 header{
     display: flex;
     justify-content: space-between;
-    padding: 1.5em 10vw;
+    padding: 0 10vw;
 
     .logo{
         color: #d6b0a3;
@@ -57,12 +65,12 @@ footer{
                 justify-content: space-between;
                 width: 7em;
                 align-items: center;
-               margin: 0 auto;
+                margin: 0 auto;
             }
     
 }
 .hero{
-    background-image:url("/images/pexels-sindre-strøm-1144176.jpg");
+    background-image:url("/images/banner.png");
     color: white;
     display: grid;
     text-align:center;
@@ -75,6 +83,9 @@ footer{
 section{
     padding: 4em 2em;
     text-align: center;
+    h1{
+        color:#1D4857;
+    }
 }
 .featured{
     position: relative;
@@ -113,7 +124,7 @@ section{
 
 }
 .skills{
-     background: #dddcdc;
+     background: #f7f7f7;
      padding-top: 3em;
 }
 .skills-container ul li{
@@ -146,7 +157,7 @@ section{
 }
 
 .portfolio{
-    background: #dddcdc;
+    background: #f7f7f7;
     padding-top: 3em;
 }
 
@@ -221,7 +232,7 @@ section{
 }
 @media only screen and (min-width: 800px){
     header{
-    padding: 1.5em 10vw;
+    padding: 0 10vw;
     }
     .featured, .portfolio{
         text-align: left;
@@ -255,7 +266,7 @@ section{
 @media only screen and (min-width: 1050px){
 
     header{
-        padding: 1.5em 10vw;
+        padding: 0 10vw;
         }
         .social-footer{
 
@@ -264,8 +275,11 @@ section{
             }
         }
     .hero{
-        height: 90vh;
-        padding-top: 20em;
+        height: 80vh;
+       .content{
+            height: 50vh;
+            padding: 15vh 0;
+       }
     }
 
     .nav-container{
@@ -277,13 +291,13 @@ section{
             background-color: #1D4857;
         }
     }
-    header{
-        padding: 2em 2em 2em 4em;
-    }
     section{
         padding: 4em;
     }
     .hero .content{
+        padding: 0 auto;
+        justify-content: center;
+        align-content: center;
         h1{
             font-size: 6em;
         }
@@ -308,7 +322,7 @@ section{
 
 @media only screen and (min-width: 1250px){
     header{
-        padding: 1.5em 10vw;
+        padding: 0 10vw;
         h1{
             text-align: center;
             font-size: 10em;
@@ -337,7 +351,7 @@ section{
 
 @media only screen and (min-width: 1550px){
     header{
-        padding: 1.5em 10vw;
+        padding: 0 10vw;
         h1{
             text-align: center;
             font-size: 10em;
