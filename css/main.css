@@ -3,6 +3,7 @@ body {
   height: 100vh;
   margin: 0;
   font-family: "Poppins, arial";
+  font-size: 1em;
 }
 
 ul {
@@ -137,12 +138,11 @@ section h1 {
 }
 
 .skills {
-  background: #f7f7f7;
   padding-top: 3em;
 }
 
 .skills-container ul li {
-  background: white;
+  background: #f7f7f7;
   padding: 2em;
   border-radius: 1em;
   margin-bottom: 1em;
@@ -304,8 +304,8 @@ section h1 {
     height: 80vh;
   }
   .hero .content {
-    height: 50vh;
-    padding: 15vh 0;
+    height: 40vh;
+    padding: 20vh 0;
   }
 
   .nav-container {
@@ -362,7 +362,7 @@ section h1 {
   }
 
   .hero .content h1 {
-    font-size: 8em;
+    font-size: 6em;
   }
   .hero .content p {
     font-size: 3em;
