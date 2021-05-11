@@ -77,7 +77,6 @@ footer {
 }
 
 .hero {
-  background-image: url("/images/banner.png");
   color: white;
   display: grid;
   text-align: center;
