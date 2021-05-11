@@ -178,11 +178,12 @@ section{
     margin-bottom: 10px;
     padding-bottom: 20px;
     position: relative;
-    z-index: -1;
+    // z-index: -1;
 }
 .form-control label{
     display: inline-block;
     margin-bottom: 5px;
+    z-index: -1;
 }
 .form-control input {
     border: 2px solid #f0f0f0;
@@ -193,6 +194,7 @@ section{
     padding: 10px;
     width:60vw;
     margin: 0 auto;
+    z-index: -1;
 }
 .form-control textarea {
     border: 2px solid #f0f0f0;
