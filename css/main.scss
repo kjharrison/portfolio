@@ -20,13 +20,14 @@ img{width:100%;}
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 100;
     a{
         color: white;
     }
     .logo{
-       width: 4em;
-       height: 4em;
-       margin: auto 0;
+       width: 80%;
+       height: 80%;
+       margin: auto;
     }
     ul{
         padding: 1.5em 0;
@@ -36,12 +37,6 @@ header{
     display: flex;
     justify-content: space-between;
     padding: 0 10vw;
-    z-index: 1000;
-
-    .logo{
-        color: #d6b0a3;
-        font-weight: 700;
-    }
         ul{
             display: flex;
             a{
@@ -49,12 +44,6 @@ header{
                 padding: 0 1em;
             }
         }
-}
-footer{
-    display: flex;
-    justify-content: space-between;
-    padding: 2em;
-    background: #1D4857;
 }
 .social-footer{
 
