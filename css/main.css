@@ -25,13 +25,14 @@ img {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 9999;
 }
 .nav-container a {
   color: white;
 }
 .nav-container .logo {
-  width: 4em;
-  height: 4em;
+  width: 3em;
+  height: 3em;
   margin: auto 0;
 }
 .nav-container ul {
@@ -43,23 +44,12 @@ header {
   justify-content: space-between;
   padding: 0 10vw;
 }
-header .logo {
-  color: #d6b0a3;
-  font-weight: 700;
-}
 header ul {
   display: flex;
 }
 header ul a {
   display: block;
   padding: 0 1em;
-}
-
-footer {
-  display: flex;
-  justify-content: space-between;
-  padding: 2em;
-  background: #1D4857;
 }
 
 .social-footer {
